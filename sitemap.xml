@@ -2,26 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://duonuisibles.fr/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://duonuisibles.fr/aucamville.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/castelginest.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/saint-alban.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/saint-jory.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/fonbeauzard.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/launaguet.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/fenouillet.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/bruguieres.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/gratentour.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/lespinasse.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/blagnac.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://duonuisibles.fr/l-union.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/balma.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/beauzelle.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/blagnac.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/bouloc.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/bruguieres.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/castelginest.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/castelmaurou.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/castelnau-estretefonds.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/cepet.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/colomiers.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/cugnaux.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/fenouillet.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/fonbeauzard.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/fronton.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/gagnac-sur-garonne.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/gratentour.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/l-union.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/launaguet.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/lespinasse.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/montberon.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/montrabé.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/muret.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/pechbonnieu.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/pibrac.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/saint-alban.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/saint-genies-bellevue.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/saint-jean.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/saint-jory.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/saint-loup-cammas.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/saint-lys.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://duonuisibles.fr/seilh.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://duonuisibles.fr/tournefeuille.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
