@@ -1,116 +1,302 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  <!-- ══ PAGE PRINCIPALE ══ -->
-  <url>
-    <loc>https://duonuisibles.fr/</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
 
-  <!-- ══ PAGES VILLES — PRIORITÉ HAUTE ══ -->
-  <url>
-    <loc>https://duonuisibles.fr/destruction-nid-frelons-aucamville.html</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+<url>
+  <loc>https://duonuisibles.fr/</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/pages</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/urgence-rats-toulouse</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/destruction-nid-frelons-aucamville</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/destruction-nid-frelons-castelginest</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/saint-alban</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/destruction-nid-frelons-fonbeauzard</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/destruction-nid-frelons-saint-jory</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/destruction-nid-frelons-fenouillet</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/bruguieres</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/gratentour</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/lespinasse</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/montberon</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/destruction-nid-frelons-pechbonnieu</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/gagnac-sur-garonne</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/blagnac</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/beauzelle</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/l-union</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/saint-jean</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/seilh</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/colomiers</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/destruction-nid-frelons-launaguet</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/balma</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/montrab%C3%A9</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/pibrac</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/saint-lys</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/prix-destruction-frelons-toulouse</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/prix-deratisation-toulouse</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/prix-punaises-de-lit-toulouse</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/prix-desinsectisation-toulouse</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/deratisation-31140</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/intervention-nuisibles-rapide</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/souris-maison-que-faire</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/rats-dans-les-combles</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/deratisation-combien-de-temps</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/traitement-souris-cuisine</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/desinsectisation-vs-deratisation</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/aucamville</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/bouloc</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/castelginest</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/castelnau-estretefonds</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/cepet</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/fenouillet</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/fonbeauzard</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/fronton</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/launaguet</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/pechbonnieu</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/saint-jory</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/saint-loup-cammas</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/seih</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/toulouse</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/guide-nuisibles-rampants-volants-rongeurs</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/diagnostic-nuisibles-gratuit-toulouse</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/normes-homologations-traitement-nuisibles</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/proteger-enfants-animaux-nuisibles</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/deratisation-commerces-restaurants-toulouse</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/produits-nuisibles-retires-role-professionnels</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://duonuisibles.fr/blog-conseils-nuisibles</loc>
+  <lastmod>2026-04-27T09:28:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
-  <url>
-    <loc>https://duonuisibles.fr/destruction-nid-frelons-blagnac.html</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://duonuisibles.fr/destruction-nid-frelons-pechbonnieu.html</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://duonuisibles.fr/destruction-nid-frelons-castelginest.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://duonuisibles.fr/destruction-nid-frelons-saint-jory.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://duonuisibles.fr/destruction-nid-frelons-fenouillet.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://duonuisibles.fr/destruction-nid-frelons-launaguet.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://duonuisibles.fr/destruction-nid-frelons-fonbeauzard.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- ══ PAGES SERVICES & B2B ══ -->
-  <url>
-    <loc>https://duonuisibles.fr/deratisation-commerces-restaurants-toulouse.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://duonuisibles.fr/diagnostic-nuisibles-gratuit-toulouse.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- ══ PAGES GUIDES & CONTENU ══ -->
-  <url>
-    <loc>https://duonuisibles.fr/guide-nuisibles-rampants-volants-rongeurs.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://duonuisibles.fr/normes-homologations-traitement-nuisibles.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://duonuisibles.fr/proteger-enfants-animaux-nuisibles.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://duonuisibles.fr/produits-nuisibles-retires-role-professionnels.html</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
 
 </urlset>
