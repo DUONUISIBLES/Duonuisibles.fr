@@ -1,9 +1,9 @@
 # ==================================================
 # ROBOTS.TXT - DÛ Ô NUISIBLES (TOULOUSE NORD)
-# Version optimisée pour SEO + visibilité IA (2026)
+# Optimisé SEO + visibilité dans les IA (ChatGPT, Perplexity, Claude...)
 # ==================================================
 
-# 1. Autoriser les principaux crawlers IA (pour être trouvé par les IA)
+# 1. Autoriser les crawlers IA principaux (pour être trouvé et cité par les IA)
 User-agent: GPTBot
 Allow: /
 
@@ -19,11 +19,11 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-# 2. Google : on autorise la recherche classique, on bloque seulement l'entraînement pur
+# 2. Google : autoriser la recherche classique, bloquer seulement l'entraînement massif de Gemini
 User-agent: Google-Extended
 Disallow: /
 
-# 3. Bloquer les outils de scraping / audit agressifs
+# 3. Bloquer les scrapers agressifs (pas utiles pour ton SEO)
 User-agent: AhrefsBot
 Disallow: /
 
