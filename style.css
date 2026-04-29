@@ -1631,48 +1631,4 @@ figure:has(.photo-banner-caption) { display: none !important; }
   height: 15px;
   fill: #fff;
 }
-/* ═══════════════════════════════════
-   OPTIMISATION POLICES MONTSERRAT (LCP + Arborescence du réseau)
-   font-display: swap + chemins corrects
-═══════════════════════════════════ */
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('/wp-content/uploads/fonts/normal.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('/wp-content/uploads/fonts/bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('/wp-content/uploads/fonts/extrabold.woff2') format('woff2');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-}
-/* OPTIMISATION POLICES MONTSERRAT - Pour corriger LCP */
-@font-face {
-    font-family: 'Montserrat';
-    src: url('/wp-content/themes/duo-nuisibles/fonts/normal.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('/wp-content/themes/duo-nuisibles/fonts/normal.woff2') format('woff2'); /* on réutilise le même fichier pour 700/800 si tu n'as pas de fichiers séparés */
-    font-weight: 700 800;
-    font-style: normal;
-    font-display: swap;
-}
 </style>
