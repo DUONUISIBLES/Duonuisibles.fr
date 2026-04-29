@@ -2,7 +2,7 @@
 # ROBOTS.TXT - DÛ Ô NUISIBLES (TOULOUSE NORD)
 # ══════════════════════════════════════════════════
 
-# 1. Protection contre le vol de contenu par les IA (GEO Optimization)
+# 1. Protection against AI content scraping (Explicitly blocking known AI bots)
 User-agent: GPTBot
 Disallow: /
 
@@ -12,7 +12,10 @@ Disallow: /
 User-agent: ChatGPT-User
 Disallow: /
 
-# 2. Bloquer les outils de "scraping" et d'audit agressifs
+User-agent: Google-Extended
+Disallow: /
+
+# 2. Block aggressive scraping and audit tools
 User-agent: AhrefsBot
 Disallow: /
 
@@ -22,12 +25,12 @@ Disallow: /
 User-agent: SemrushBot
 Disallow: /
 
-# 3. Autoriser les moteurs de recherche principaux (Google, Bing, Yahoo)
+# 3. Allow main search engines
 User-agent: *
 Allow: /
 Disallow: /cgi-bin/
 Disallow: /admin/
 Disallow: /private/
 
-# 4. Lien direct vers le plan du site pour l'indexation (CRUCIAL)
+# 4. Sitemap link
 Sitemap: https://www.duonuisibles.fr/sitemap.xml
