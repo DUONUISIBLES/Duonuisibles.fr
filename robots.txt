@@ -1,50 +1,51 @@
 # ==================================================
 # ROBOTS.TXT - DÛ Ô NUISIBLES (TOULOUSE NORD)
+# Version optimisée pour SEO + visibilité IA (2026)
 # ==================================================
 
-# 1. Bloquer les crawlers d'entraînement IA (sans bloquer le SEO)
+# 1. Autoriser les principaux crawlers IA (pour être trouvé par les IA)
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
-User-agent: CCBot
-Disallow: /
+User-agent: ClaudeBot
+Allow: /
 
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# 2. Google : on autorise la recherche classique, on bloque seulement l'entraînement pur
 User-agent: Google-Extended
 Disallow: /
 
-User-agent: ClaudeBot
-Disallow: /
-
-User-agent: anthropic-ai
-Disallow: /
-
-User-agent: PerplexityBot
-Disallow: /
-
-User-agent: Bytespider
-Disallow: /
-
-# 2. Bloquer les outils de scraping / audit agressifs
+# 3. Bloquer les outils de scraping / audit agressifs
 User-agent: AhrefsBot
-Disallow: /
-
-User-agent: DotBot
 Disallow: /
 
 User-agent: SemrushBot
 Disallow: /
 
-# 3. Autoriser les bons moteurs de recherche
+User-agent: DotBot
+Disallow: /
+
+User-agent: magicsearchbot
+Disallow: /
+
+# 4. Règles générales
 User-agent: *
 Allow: /
+Disallow: /downloads/
+Disallow: /uploads/
 Disallow: /cgi-bin/
 Disallow: /admin/
 Disallow: /private/
 Disallow: /wp-admin/
 Disallow: /wp-login.php
 
-# 4. Sitemap
+# 5. Sitemap
 Sitemap: https://www.duonuisibles.fr/sitemap.xml
