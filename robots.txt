@@ -1,36 +1,50 @@
-# ══════════════════════════════════════════════════
-# ROBOTS.TXT - DÛ Ô NUISIBLES (TOULOUSE NORD) 
-# ══════════════════════════════════════════════════
+# ==================================================
+# ROBOTS.TXT - DÛ Ô NUISIBLES (TOULOUSE NORD)
+# ==================================================
 
-# 1. Protection contre l'entraînement des IA (Méthode standard)
-User-agent: GPTBot 
-Disallow: / 
+# 1. Bloquer les crawlers d'entraînement IA (sans bloquer le SEO)
+User-agent: GPTBot
+Disallow: /
 
-User-agent: ChatGPT-User 
-Disallow: / 
+User-agent: ChatGPT-User
+Disallow: /
 
-User-agent: CCBot 
-Disallow: / 
+User-agent: CCBot
+Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
 
-# 2. Bloquer les outils de "scraping" et d'audit agressifs
-User-agent: AhrefsBot 
-Disallow: / 
+User-agent: ClaudeBot
+Disallow: /
 
-User-agent: DotBot 
-Disallow: / 
+User-agent: anthropic-ai
+Disallow: /
 
-User-agent: SemrushBot 
-Disallow: / 
+User-agent: PerplexityBot
+Disallow: /
 
-# 3. Autoriser les moteurs de recherche principaux
-User-agent: * 
-Allow: / 
-Disallow: /cgi-bin/ 
-Disallow: /admin/ 
-Disallow: /private/ 
+User-agent: Bytespider
+Disallow: /
 
-# 4. Plan du site (Indexation Google)
+# 2. Bloquer les outils de scraping / audit agressifs
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# 3. Autoriser les bons moteurs de recherche
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+
+# 4. Sitemap
 Sitemap: https://www.duonuisibles.fr/sitemap.xml
