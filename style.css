@@ -307,6 +307,8 @@ nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.4);}
 .hero-service-item:last-child{border-bottom:none;}
 .hero-service-dot{width:5px;height:5px;border-radius:50%;background:var(--green-light);flex-shrink:0;}
 @media(max-width:820px){.hero-stats-card{display:none;}}
+@media(max-width:820px){.hero{padding-top:84px;}}
+@media(max-width:480px){.hero{padding-top:80px;}}
 
 /* ═══════════════════════════════════
  ABOUT
