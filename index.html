@@ -383,9 +383,6 @@
  </div>
 </section>
 
-<!-- ════════════════════════
- BLOC CONFIANCE
-════════════════════════ -->
 <!-- ════════ AVIS GOOGLE ════════ -->
 <div style="padding:2rem 1rem;max-width:900px;margin:0 auto;font-family:'Montserrat',sans-serif;">
 
@@ -468,9 +465,60 @@
           <div><div style="font-size:13px;font-weight:700;color:#fff;">Maevah Amsallem</div><div style="font-size:11px;color:rgba(255,255,255,.45);">Il y a 3 semaines</div></div>
         </div>
         <div style="color:#E8C547;font-size:13px;margin-bottom:.5rem;">★★★★★</div>
-        <div style=
+        <div style="font-size:12.5px;color:rgba(255,255,255,.7);line-height:1.6;">Intervention de désinsectisation à Toulouse au top pour un problème de cafards et de fourmis. Rapide, efficace, prix juste. Merci !</div>
+      </div>
 
+    </div>
+  </div>
 
+  <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:1rem;">
+    <div id="gDotsWrap" style="display:flex;gap:6px;align-items:center;"></div>
+    <div style="display:flex;gap:8px;margin-left:auto;">
+      <button id="gPrev" aria-label="Précédent" style="width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,.2);background:transparent;cursor:pointer;color:#fff;font-size:16px;">&#8592;</button>
+      <button id="gNext" aria-label="Suivant" style="width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,.2);background:transparent;cursor:pointer;color:#fff;font-size:16px;">&#8594;</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var track=document.getElementById('gCarouselTrack');
+  var wrap=document.getElementById('gCarouselWrap');
+  var dotsWrap=document.getElementById('gDotsWrap');
+  var cards=track.querySelectorAll('div[style*="min-width:260px"]');
+  var total=cards.length;
+  var current=0;
+  var autoTimer;
+  function getVis(){var w=wrap.offsetWidth;if(w>=600)return 3;if(w>=380)return 2;return 1;}
+  function maxIdx(){return Math.max(0,total-getVis());}
+  function buildDots(){
+    dotsWrap.innerHTML='';
+    var count=maxIdx()+1;
+    for(var i=0;i<count;i++){
+      var d=document.createElement('button');
+      d.style.cssText='width:7px;height:7px;border-radius:50%;border:none;cursor:pointer;padding:0;background:'+(i===current?'#E8C547':'rgba(255,255,255,.25)')+';';
+      d.setAttribute('aria-label','Avis '+(i+1));
+      (function(idx){d.addEventListener('click',function(){goTo(idx);});})(i);
+      dotsWrap.appendChild(d);
+    }
+  }
+  function goTo(idx){
+    current=Math.min(Math.max(0,idx),maxIdx());
+    var cardW=cards[0].offsetWidth+14;
+    track.style.transform='translateX(-'+(current*cardW)+'px)';
+    var dots=dotsWrap.querySelectorAll('button');
+    dots.forEach(function(d,i){d.style.background=i===current?'#E8C547':'rgba(255,255,255,.25)';});
+    clearInterval(autoTimer);
+    autoTimer=setInterval(function(){goTo(current>=maxIdx()?0:current+1);},4500);
+  }
+  document.getElementById('gNext').addEventListener('click',function(){goTo(current>=maxIdx()?0:current+1);});
+  document.getElementById('gPrev').addEventListener('click',function(){goTo(current<=0?maxIdx():current-1);});
+  window.addEventListener('resize',function(){buildDots();goTo(0);});
+  buildDots();
+  goTo(0);
+})();
+</script>
+	
 
 <!-- ════════════════════════
  QUI SOMMES NOUS
