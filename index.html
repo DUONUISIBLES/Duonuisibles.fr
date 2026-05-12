@@ -389,11 +389,11 @@
   <div style="display:flex;align-items:center;gap:14px;margin-bottom:1.2rem;flex-wrap:wrap;">
     <div style="display:flex;align-items:baseline;gap:6px;">
       <span style="font-size:28px;font-weight:700;color:#E8C547;">4,8</span>
-      <span style="font-size:14px;color:rgba(255,255,255,.55);">/5</span>
+      <span style="font-size:14px;color:rgba(0,0,0,.45);">/5</span>
     </div>
     <div>
       <div style="color:#E8C547;font-size:18px;letter-spacing:1px;">★★★★★</div>
-      <div style="font-size:12px;color:rgba(255,255,255,.55);">Avis clients Google vérifiés</div>
+      <div style="font-size:12px;color:rgba(0,0,0,.45);">Avis clients Google vérifiés</div>
     </div>
     <a href="https://share.google/MtsDZah8krcrANSeJ" target="_blank" rel="noopener"
        style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:#4285F4;text-decoration:none;border:1px solid #4285F4;border-radius:20px;padding:5px 14px;">
@@ -405,13 +405,13 @@
   <div style="overflow:hidden;" id="gCarouselWrap">
     <div style="display:flex;gap:14px;transition:transform .4s cubic-bezier(.4,0,.2,1);" id="gCarouselTrack">
 
-      <div style="min-width:260px;max-width:260px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:1rem;flex-shrink:0;">
+      <div style="min-width:260px;max-width:260px;background:#ffffff;border:1px solid rgba(0,0,0,.1);border-radius:12px;padding:1rem;flex-shrink:0;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:.6rem;">
           <div style="width:38px;height:38px;border-radius:50%;background:#1a1a2e;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#E8C547;flex-shrink:0;">AH</div>
-          <div><div style="font-size:13px;font-weight:700;color:#fff;">Amandine Hesse</div><div style="font-size:11px;color:rgba(255,255,255,.45);">Il y a 5 jours</div></div>
+          <div><div style="font-size:13px;font-weight:700;color:#1a1a2e;">Amandine Hesse</div><div style="font-size:11px;color:rgba(0,0,0,.4);">Il y a 5 jours</div></div>
         </div>
         <div style="color:#E8C547;font-size:13px;margin-bottom:.5rem;">★★★★★</div>
-        <div style="font-size:12.5px;color:rgba(255,255,255,.7);line-height:1.6;">Panique en pleine nuit après la découverte d'un rat dans notre chambre. En 20 min une intervention a été faite alors qu'il était 1h du matin ! Merci pour votre gentillesse et professionnalisme.</div>
+        <div style="font-size:12.5px;color:rgba(0,0,0,.65);line-height:1.6;">Panique en pleine nuit après la découverte d'un rat dans notre chambre. En 20 min une intervention a été faite alors qu'il était 1h du matin ! Merci pour votre gentillesse et professionnalisme.</div>
       </div>
 
       <div style="min-width:260px;max-width:260px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:1rem;flex-shrink:0;">
@@ -474,7 +474,7 @@
   <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:1rem;">
     <div id="gDotsWrap" style="display:flex;gap:6px;align-items:center;"></div>
     <div style="display:flex;gap:8px;margin-left:auto;">
-      <button id="gPrev" aria-label="Précédent" style="width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,.2);background:transparent;cursor:pointer;color:#fff;font-size:16px;">&#8592;</button>
+      <button id="gPrev" aria-label="Précédent" style="width:32px;height:32px;border-radius:50%;border:1px solid rgba(0,0,0,.2);background:transparent;cursor:pointer;color:#1a1a2e;font-size:16px;">&#8592;</button>
       <button id="gNext" aria-label="Suivant" style="width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,.2);background:transparent;cursor:pointer;color:#fff;font-size:16px;">&#8594;</button>
     </div>
   </div>
@@ -496,7 +496,7 @@
     var count=maxIdx()+1;
     for(var i=0;i<count;i++){
       var d=document.createElement('button');
-      d.style.cssText='width:7px;height:7px;border-radius:50%;border:none;cursor:pointer;padding:0;background:'+(i===current?'#E8C547':'rgba(255,255,255,.25)')+';';
+      d.style.cssText='width:7px;height:7px;border-radius:50%;border:none;cursor:pointer;padding:0;background:'+(i===current?'#E8C547':'rgba(0,0,0,.2)')+';';
       d.setAttribute('aria-label','Avis '+(i+1));
       (function(idx){d.addEventListener('click',function(){goTo(idx);});})(i);
       dotsWrap.appendChild(d);
