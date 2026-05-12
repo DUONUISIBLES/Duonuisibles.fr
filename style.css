@@ -1444,6 +1444,7 @@ body {
   .hero-logo-new { justify-content: center; }
   .hero-logo-new img { height: 56px; }
   .hero-emotional-hook { font-size: 0.875rem; }
+  .hero { padding-top: 96px; }
 }
 
 /* ── Mobile CTAs at least 48px */
