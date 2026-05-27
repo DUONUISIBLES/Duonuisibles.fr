@@ -51,17 +51,17 @@
  --forest-mid: #4A8B55; /* sections sombres secondaires */
  --green: #56B870; /* vert feuille vif — accents, CTAs */
  --green-light: #6DC97E; /* hover */
- --green-pale: #F0F4F0; /* fond cards clair — gris neutre */
- --green-xpale: #FFFFFF; /* fond sections — blanc pur */
+ --green-pale: #E8F5E9; /* fond cards clair */
+ --green-xpale: #F1FAF2; /* fond sections très clair */
  --gold: #D4AF37; /* or brillant — fiabilité, prix */
  --gold-bright: #E8C547; /* or lumineux — stats, hover */
  --gold-pale: #FBF7DC; /* fond badge or */
  --red: #C03020; /* urgence — appel */
  --red-dark: #9C2518;
- --cream: #FFFFFF; /* fond global — blanc pur */
+ --cream: #F6FAF6; /* fond global — légèrement vert naturel */
  --white: #FFFFFF;
- --gray-1: #F2F2F2;
- --gray-2: #E0E0E0;
+ --gray-1: #F0F4F0;
+ --gray-2: #E1E6E0;
  --gray-3: #BEC5BC;
  --text: #1A211B;
  --text-mid: #465048;
@@ -120,13 +120,17 @@ nav{
 }
 nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.4);}
 
-.nav-brand{display:flex;align-items:center;gap:11px;text-decoration:none;}
-.nav-brand img{width:44px;height:44px;object-fit:contain;border-radius:var(--r-xs);flex-shrink:0;}
+.nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0;}
+.nav-brand img{width:40px;height:40px;object-fit:contain;flex-shrink:0;}
 .nav-brand-name{
- font-family:'Montserrat',sans-serif;font-weight:800;font-size:16px;
- color:var(--white);letter-spacing:-.2px;line-height:1.15;
+ font-family:'Montserrat',sans-serif;font-weight:800;font-size:15px;
+ color:var(--white);letter-spacing:-.2px;line-height:1.2;white-space:nowrap;
 }
 .nav-brand-name em{color:var(--gold-bright);font-style:normal;}
+@media(max-width:400px){
+ .nav-brand-name{font-size:13px;}
+ .nav-brand img{width:34px;height:34px;}
+}
 .nav-brand-sub{font-size:9px;color: #FFD700;letter-spacing:2px;text-transform:uppercase;display:block;font-weight:400;}
 
 .nav-links{display:flex;align-items:center;gap:2px;}
