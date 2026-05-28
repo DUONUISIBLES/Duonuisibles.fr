@@ -34,8 +34,19 @@ nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.4);}
 .nav-brand-name{font-weight:800;font-size:16px;color:#fff;}
 .nav-emergency{display:flex;align-items:center;gap:7px;background:var(--red);color:#fff;padding:9px 18px;border-radius:3px;font-size:14px;font-weight:800;transition:background .18s;white-space:nowrap;}
 .nav-emergency:hover{background:var(--red-dark);}
-.nav-back{font-size:13px;color:rgba(255,255,255,.7);padding:7px 12px;border-radius:3px;transition:all .18s;}
-.nav-back:hover{color:#fff;background:rgba(255,255,255,.07);}
+/* Nav liens desktop */
+.nav-links{display:flex;align-items:center;gap:2px;}
+.nav-link{font-family:'Montserrat',sans-serif;font-size:13.5px;font-weight:500;color:rgba(255,255,255,1);padding:7px 12px;border-radius:3px;transition:all .18s;}
+.nav-link:hover{color:#fff;background:rgba(255,255,255,.1);}
+/* Hamburger */
+.nav-mobile-toggle{display:none;background:none;border:2px solid rgba(255,255,255,.5);color:#fff;font-size:20px;cursor:pointer;padding:6px 12px;border-radius:3px;line-height:1;}
+/* Menu mobile */
+.mobile-menu{display:none;position:fixed;top:64px;left:0;right:0;background:var(--forest);z-index:299;border-bottom:2px solid var(--gold);padding:14px 20px;flex-direction:column;gap:3px;box-shadow:0 10px 36px rgba(0,0,0,.4);}
+.mobile-menu.open{display:flex;}
+.mobile-menu .nav-link{font-size:15px;padding:12px 14px;color:#fff;border-bottom:1px solid rgba(255,255,255,.1);}
+.mobile-menu .nav-link:last-of-type{border-bottom:none;}
+.mobile-menu .nav-emergency{margin:10px 0 0;padding:14px;justify-content:center;border-radius:3px;}
+@media(max-width:900px){.nav-links.desktop{display:none;}.nav-mobile-toggle{display:flex;}}
 .page-hero{background:linear-gradient(148deg,#3A7D44 0%,#4A8B55 55%,#3A7D44 100%);padding:110px 32px 64px;text-align:center;position:relative;overflow:hidden;}
 .page-hero h1{font-weight:800;font-size:clamp(28px,4.5vw,46px);color:#fff;margin-bottom:14px;line-height:1.1;}
 .page-hero p{font-size:17px;color:rgba(255,255,255,.82);max-width:600px;margin:0 auto 28px;line-height:1.75;}
