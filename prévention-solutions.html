@@ -86,10 +86,19 @@ footer{background:var(--green-xpale);padding:48px 32px 24px;border-top:1px solid
 </head>
 <body>
 <nav id="main-nav">
-<a class="nav-brand" href="/">
- <img src="logo_duonuisibles_jaune.webp" alt="Logo Dû Ô Nuisibles" width="44" height="44" loading="eager" fetchpriority="high">
- <span class="nav-brand-name">Dû Ô Nuisibles</span>
- </a>
+  <a class="nav-brand" href="/">
+    <img src="/logo_duonuisibles_jaune.webp" alt="Logo Dû Ô Nuisibles" width="44" height="44" loading="eager">
+    <span class="nav-brand-name">Dû Ô <em style="font-style:normal;">Nuisibles</em></span>
+  </a>
+  <div style="display:flex;align-items:center;gap:8px;">
+    <a href="/" class="nav-back">← Accueil</a>
+    <a href="/deratisation" class="nav-back">Dératisation</a>
+    <a href="/frelons" class="nav-back">Frelons</a>
+    <a href="/#services" class="nav-back">Services</a>
+    <a href="/#tarifs" class="nav-back">Tarifs</a>
+    <a href="tel:0756886887" class="nav-emergency">📞 07 56 886 887</a>
+  </div>
+</nav>
 
  <div class="nav-links desktop">
 <a href="/prévention-solutions.html" class="nav-link">Prévention & Solutions</a>
