@@ -87,38 +87,21 @@ footer{background:var(--green-xpale);padding:48px 32px 24px;border-top:1px solid
 <body>
 <nav id="main-nav">
 <a class="nav-brand" href="/">
-  <img src="/logo_duonuisibles_jaune.webp" alt="Logo Dû Ô Nuisibles" width="44" height="44" loading="eager">
-  <span>Dû Ô Nuisibles</span>
-</a>
+ <img src="logo_duonuisibles_jaune.webp" alt="Logo Dû Ô Nuisibles" width="44" height="44" loading="eager" fetchpriority="high">
+ <span class="nav-brand-name">Dû Ô Nuisibles</span>
+ </a>
 
-
-  <div class="nav-links desktop">
-    <a href="/prévention-solutions.html" class="nav-link">Prévention & Solutions</a>
-    <a href="/deratisation" class="nav-link">Dératisation</a>
-    <a href="/frelons" class="nav-link">Frelons</a>
-    <a href="/#tarifs" class="nav-link">Tarifs</a>
-    <a href="/#avis" class="nav-link">Avis</a>
+ <div class="nav-links desktop">
+<a href="/prévention-solutions.html" class="nav-link">Prévention & Solutions</a>
+ <a href="/deratisation" class="nav-link">Dératisation</a>
+ <a href="/frelons" class="nav-link">Frelons</a>
+ <a href="#services" class="nav-link">Services</a>
+ <a href="#garanties" class="nav-link">Garanties</a>
+ <a href="#tarifs" class="nav-link">Tarifs</a>
+ <a href="#avis" class="nav-link">Avis</a>
+ <a href="#faq" class="nav-link">FAQ</a>
+<a href="#contact-b2b" class="nav-link">Vous B2B</a>
   </div>
-
-  <div style="display:flex;align-items:center;gap:10px;">
-    <a href="https://www.instagram.com/duonuisibles" target="_blank" rel="noopener noreferrer" class="ig-nav-btn" aria-label="Instagram Dû Ô Nuisibles (nouvelle fenêtre)">
-      <!-- ton SVG Instagram ici -->
-    </a>
-    <a href="https://www.facebook.com/profile.php?id=61576493986465" target="_blank" rel="noopener noreferrer" class="fb-nav-btn" aria-label="Facebook Dû Ô Nuisibles (nouvelle fenêtre)">
-      <!-- ton SVG Facebook ici -->
-    </a>
-    <button class="nav-mobile-toggle" onclick="toggleMobileMenu()" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">☰</button>
-  </div>
-</nav>
-
-<div class="mobile-menu" id="mobile-menu">
-  <a href="/" class="nav-link" onclick="closeMobileMenu()">🏠 Accueil</a>
-  <a href="/prévention-solutions.html" class="nav-link" onclick="closeMobileMenu()">📋 Prévention & Solutions</a>
-  <a href="/deratisation" class="nav-link" onclick="closeMobileMenu()">🐀 Dératisation</a>
-  <a href="/frelons" class="nav-link" onclick="closeMobileMenu()">🐝 Frelons & Guêpes</a>
-  <a href="/#tarifs" class="nav-link" onclick="closeMobileMenu()">💶 Nos Tarifs</a>
-  <a href="/#avis" class="nav-link" onclick="closeMobileMenu()">⭐ Avis clients</a>
-  <a href="tel:0756886887" class="nav-emergency" onclick="closeMobileMenu()">📞 Appel urgent — 07 56 886 887</a>
 </div>
 
 <section class="page-hero">
