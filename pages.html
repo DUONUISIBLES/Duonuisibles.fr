@@ -86,21 +86,38 @@ footer{background:var(--green-xpale);padding:48px 32px 24px;border-top:1px solid
 </head>
 <body>
 <nav id="main-nav">
- <a class="nav-brand" href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
- <img src="logo_duonuisibles_jaune.webp" alt="Logo Dû Ô Nuisibles — Expert dératisation et frelons Toulouse" width="180" height="60" loading="eager" fetchpriority="high">
- <span style="font-family:'Montserrat',sans-serif;font-size:16px;font-weight:800;color:var(--white);">Dû Ô Nuisibles</span>
- </a>
-  <div style="display:flex;align-items:center;gap:8px;">
+  <a class="nav-brand" href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+    <img src="logo_duonuisibles_jaune.webp" alt="Logo Dû Ô Nuisibles — Expert dératisation et frelons Toulouse" width="180" height="60" loading="eager" fetchpriority="high">
+    <span style="font-family:'Montserrat',sans-serif;font-size:16px;font-weight:800;color:var(--white);">Dû Ô Nuisibles</span>
+  </a>
+
+  <!-- Liens desktop -->
+  <div class="nav-links">
     <a href="/" class="nav-back">Accueil</a>
     <a href="/deratisation-toulouse" class="nav-back">Dératisation</a>
     <a href="/frelons" class="nav-back">Frelons</a>
-    <a href="/intervention-nuisibles-rapide" class="nav-back">⚡Services</a>
-    <a href="prévention-solutions" class="nav-back">ℹ️Conseils d'experts</a>
+    <a href="/intervention-nuisibles-rapide" class="nav-back">⚡ Services</a>
+    <a href="/prévention-solutions" class="nav-back">ℹ️ Conseils d'experts</a>
     <a href="/#tarifs" class="nav-back">Tarifs</a>
     <a href="tel:0756886887" class="nav-emergency">📞 07 56 886 887</a>
   </div>
+
+  <!-- Bouton hamburger (mobile uniquement) -->
+  <button class="hamburger" id="hamburger-btn" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
 
+<!-- Menu déroulant mobile -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="/" class="nav-back">Accueil</a>
+  <a href="/deratisation-toulouse" class="nav-back">Dératisation</a>
+  <a href="/frelons" class="nav-back">Frelons</a>
+  <a href="/intervention-nuisibles-rapide" class="nav-back">⚡ Services</a>
+  <a href="/prévention-solutions" class="nav-back">ℹ️ Conseils d'experts</a>
+  <a href="/#tarifs" class="nav-back">Tarifs</a>
+  <a href="tel:0756886887" class="nav-emergency">📞 07 56 886 887</a>
+</div>
 
 
 <section class="page-hero">
