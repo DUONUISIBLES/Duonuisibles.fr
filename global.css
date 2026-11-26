@@ -351,3 +351,22 @@ body{padding-bottom:84px;}
 .container{padding:0 18px;}
 .services,.why,.tarifs,.about,.zone,.faq,.blog,.contact,.testimonials,.mentions{padding:44px 18px;}
 }
+/* ── CARTES ZONES D'INTERVENTION (ACCUEIL) ── */
+.zone-intervention {
+  background: var(--green-xpale);
+  border-top: 2px solid var(--green-pale);
+  padding: 64px 32px;
+  text-align: center;
+}
+.zone-card {
+  background: var(--white);
+  border: 1px solid var(--gray-2);
+  border-top: 3px solid var(--green);
+  border-radius: var(--r-md);
+  padding: 22px 20px;
+  box-shadow: var(--sh-sm);
+  text-align: left;
+}
+.zone-card.prioritaire {
+  border-top: 3px solid var(--gold);
+}
