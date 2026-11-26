@@ -370,3 +370,8 @@ body{padding-bottom:84px;}
 .zone-card.prioritaire {
   border-top: 3px solid var(--gold);
 }
+/* Masquer la barre fixe mobile quand le clavier s'ouvre dans un formulaire */
+body:focus-within .mobile-sticky-cta {
+  display: none !important;
+}
+
