@@ -581,7 +581,6 @@ footer{background:var(--green-xpale);border-top:2px solid var(--green-pale);padd
 <body>
 
 <!-- ════════════════════════ NAV ════════════════════════ -->
-
 <nav id="main-nav">
   <a class="nav-brand" href="/">
     <img src="logo_duonuisibles_jaune.webp" alt="Logo Dû Ô Nuisibles" width="44" height="44" loading="eager">
@@ -607,6 +606,7 @@ footer{background:var(--green-xpale);border-top:2px solid var(--green-pale);padd
   <button class="nav-mobile-toggle" onclick="toggleMobileMenu()" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">☰</button>
 </nav>
 
+
 <div class="mobile-menu" id="mobile-menu">
   <a href="/" class="nav-link" onclick="closeMobileMenu()">Accueil</a>
   <a href="/prix-deratisation-toulouse" class="nav-link" onclick="closeMobileMenu()">🐀 Dératisation (Rats & Souris)</a>
@@ -628,12 +628,6 @@ footer{background:var(--green-xpale);border-top:2px solid var(--green-pale);padd
   <a href="tel:0756886887" class="nav-emergency" onclick="closeMobileMenu()">📞 Appel urgent — 07 56 886 887</a>
 </div>
 
-
-
-<!-- ════════════════════════ ALERTE SAISON ════════════════════════ -->
-<div class="alert-banner" role="alert">
-  🐝 <strong>Saison frelons asiatiques en cours (avril–novembre)</strong> — Intervention rapide en 2h. <a href="tel:0756886887">Appelez maintenant →</a>
-</div>
 
 <!-- ════════════════════════ HERO LOCAL ════════════════════════ -->
 <section class="hero-local" aria-label="Destruction frelons asiatiques 31140">
@@ -688,7 +682,7 @@ footer{background:var(--green-xpale);border-top:2px solid var(--green-pale);padd
         <p class="price-from">À partir de</p>
         <p class="price-tag">90 €</p>
         <p style="font-size:12px;color:rgba(255,255,255,.45);margin-top:2px;">TTC · Jusqu'à 140 € TTC</p>
-        <p class="price-note">Du nid au sol jusqu'au nid accessible à 6 m de hauteur en secteur 31140.</p>
+        <p class="price-note">Du sol jusqu'au nid accessible à 6 mètres.</p>
         <div class="price-incl">✅ Facture pour aide mairie incluse</div>
         <div class="price-incl">✅ Équipement protection complet</div>
         <div class="price-incl">✅ Déplacement inclus 31140</div>
@@ -1093,6 +1087,8 @@ footer{background:var(--green-xpale);border-top:2px solid var(--green-pale);padd
     <p style="font-size:12px;color:rgba(255,255,255,.35);margin-top:20px;">Dû Ô Nuisibles · Expert certifié CertiBiocide N°119453 · RC Pro assurée · SIREN 102814910</p>
   </div>
 </section>
+
+<!-- ════════════════════════ FOOTER ════════════════════════ -->
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
@@ -1151,30 +1147,7 @@ footer{background:var(--green-xpale);border-top:2px solid var(--green-pale);padd
   </div>
 </footer>
 
-<div class="float-cta">
-  <a href="https://wa.me." target="_blank" rel="noopener" class="float-btn float-wa">💬 WhatsApp</a>
-  <a href="tel:0756886887" class="float-btn float-phone">📞 07 56 886 887</a>
-</div>
 
-<div class="mobile-sticky-cta">
-  <div class="mobile-sticky-cta-inner">
-    <a href="tel:0756886887" class="msc-btn msc-call">
-      <span class="msc-btn-icon">📞</span>
-      <span class="msc-btn-num">07 56 886 887</span>
-      <span class="msc-btn-label">Appeler</span>
-    </a>
-    <a href="https://wa.me." target="_blank" rel="noopener" class="msc-btn msc-wa">
-      <span class="msc-btn-icon">💬</span>
-      <span class="msc-btn-num">WhatsApp</span>
-      <span class="msc-btn-label">Photo / Devis</span>
-    </a>
-    <a href="/#contact" class="msc-btn msc-devis">
-      <span class="msc-btn-icon">📝</span>
-      <span class="msc-btn-num">Devis 30min</span>
-      <span class="msc-btn-label">Gratuit</span>
-    </a>
-  </div>
-</div>
 
 <script>
 function toggleMobileMenu() {
@@ -1201,3 +1174,69 @@ function toggleFaq(el) {
 </html>
 
  
+
+<!-- ════════════════════════ STICKY MOBILE CTA ════════════════════════ -->
+<div class="mobile-sticky-cta" role="complementary" aria-label="Nous contacter">
+  <div class="mobile-sticky-cta-inner">
+    <a href="tel:0756886887" class="msc-btn msc-call" aria-label="Appeler">
+      <span class="msc-btn-icon">📞</span>
+      <span class="msc-btn-num" style="font-size:10px;">07 56 88 68 87</span>
+      <span class="msc-btn-label">Appeler Maintenant</span>
+    </a>
+    <a href="https://wa.me/33756886887?text=Bonjour%20D%C3%BB%20%C3%94%20Nuisibles%20!%20Nid%20frelons%20en%2031140.%20Photo%20en%20cours%20d%27envoi." class="msc-btn msc-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <span class="msc-btn-icon">💬</span>
+      <span class="msc-btn-num">WhatsApp</span>
+      <span class="msc-btn-label">Écrire maintenant</span>
+    </a>
+    <a href="#contact" class="msc-btn msc-devis" aria-label="Devis">
+      <span class="msc-btn-icon">✏️</span>
+      <span class="msc-btn-num">Devis</span>
+      <span class="msc-btn-label">en 30 minutes</span>
+    </a>
+  </div>
+</div>
+
+
+<!-- ════════════════════════ JS ════════════════════════ -->
+<script>
+// Nav scroll
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('main-nav');
+  if (nav) nav.classList.toggle('scrolled', window.scrollY > 40);
+});
+
+// Mobile menu
+function toggleMobileMenu() {
+  const m = document.getElementById('mobile-menu');
+  if (m) m.classList.toggle('open');
+}
+function closeMobileMenu() {
+  const m = document.getElementById('mobile-menu');
+  if (m) m.classList.remove('open');
+}
+
+// FAQ local
+function toggleFaqLocal(btn) {
+  const item = btn.closest('.faq-item');
+  if (!item) return;
+  const wasOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!wasOpen) item.classList.add('open');
+  btn.setAttribute('aria-expanded', !wasOpen);
+}
+
+// Fade-up IntersectionObserver
+const fadeEls = document.querySelectorAll('.fade-up');
+if ('IntersectionObserver' in window) {
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+  fadeEls.forEach(el => obs.observe(el));
+} else {
+  fadeEls.forEach(el => el.classList.add('visible'));
+}
+</script>
+</body>
+</html>
