@@ -7,6 +7,7 @@
 <meta name="description" content="Dû Ô Nuisibles intervient à Saint-Alban (31140) pour dératisation, destruction nids frelons, punaises de lit et désinsectisation. Intervention en 2h. Agréé Certibiocide N°119453. Devis gratuit.">
 <link rel="canonical" href="https://www.duonuisibles.fr/saint-alban">
 <link rel="icon" type="image/png" href="favicon.ico">
+<link rel="stylesheet" href="global.css">
 <meta property="og:title" content="Dû Ô Nuisibles à Saint-Alban — Dératisation & Nuisibles">
 <meta property="og:description" content="Expert nuisibles à Saint-Alban — intervention en 2h, 7j/7. Dératisation, frelons, punaises de lit. Agréé Certibiocide N°119453.">
 <meta property="og:url" content="https://www.duonuisibles.fr/saint-alban">
@@ -65,10 +66,53 @@ footer a{color:rgba(255,255,255,.8);margin:0 8px}
 </head>
 <body>
 
-<nav>
-  <a class="nav-brand" href="/">🐀 Dû Ô Nuisibles</a>
-  <a class="nav-tel" href="tel:0756886887">📞 07 56 88 68 87</a>
+<!-- NAV -->
+<nav id="main-nav">
+  <a class="nav-brand" href="/">
+    <img src="logo_duonuisibles_jaune.webp" alt="Logo Dû Ô Nuisibles" width="44" height="44" loading="eager">
+    <span class="nav-brand-name">Dû Ô Nuisibles</span>
+  </a>
+
+  <div class="nav-links desktop">
+    <a href="/prix-deratisation-toulouse" class="nav-link">Dératisation</a>
+    <a href="/frelons" class="nav-link">Frelons & Guêpes</a>
+    <a href="/prix-desinsectisation-toulouse" class="nav-link">Cafards & Insectes</a>
+    <a href="/prix-punaises-de-lit-toulouse" class="nav-link">Punaises de lit</a>
+    <a href="/prevention-et-solutions" class="nav-link">Guides & Tarifs</a>
+    <a href="/deratisation-commerces-restaurants-toulouse" class="nav-link">Pros & HACCP</a>
+    <a href="https://g.page/r/CUmokL2Q5sG4EAE" class="nav-link">Avis</a>
+    <a href=" https://www.instagram.com/duonuisibles" target="_blank" rel="noopener noreferrer" class="ig-nav-btn" aria-label="Instagram Dû Ô Nuisibles">
+      <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"/></svg>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61576493986465" target="_blank" rel="noopener noreferrer" class="fb-nav-btn" aria-label="Facebook Dû Ô Nuisibles">
+      <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+    </a>
+    <a href="tel:0756886887" class="nav-emergency">📞 07 56 886 887</a>
+  </div>
+  <button class="nav-mobile-toggle" onclick="toggleMobileMenu()" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">☰</button>
 </nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="/" class="nav-link" onclick="closeMobileMenu()">Accueil</a>
+  <a href="/prix-deratisation-toulouse" class="nav-link" onclick="closeMobileMenu()">🐀 Dératisation (Rats & Souris)</a>
+  <a href="/frelons" class="nav-link" onclick="closeMobileMenu()">🐝 Frelons & Guêpes</a>
+  <a href="/prix-desinsectisation-toulouse" class="nav-link" onclick="closeMobileMenu()">🪲 Cafards, Fourmis & Insectes</a>
+  <a href="/prix-punaises-de-lit-toulouse" class="nav-link" onclick="closeMobileMenu()">🛏 Punaises de lit</a>
+  <a href="/prevention-et-solutions" class="nav-link" onclick="closeMobileMenu()">📚 Guides, Tarifs & Prévention</a>
+  <a href="/deratisation-commerces-restaurants-toulouse" class="nav-link" onclick="closeMobileMenu()">🏢 Professionnels & HACCP</a>
+  <a href="/#avis" class="nav-link" onclick="closeMobileMenu()">⭐ Avis clients</a>
+  <a href="/plan-du-site" class="nav-link" onclick="closeMobileMenu()">📍 Toutes nos communes (31)</a>
+  <a href=" https://www.instagram.com/duonuisibles" target="_blank" rel="noopener" class="ig-nav-btn" style="margin:10px 0;justify-content:center;" onclick="closeMobileMenu()">
+    <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"/></svg>
+    Instagram — @duonuisibles
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=61576493986465" target="_blank" rel="noopener" class="fb-nav-btn" style="margin:0 0 10px;justify-content:center;" onclick="closeMobileMenu()">
+    <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+    Facebook — Dû Ô Nuisibles
+  </a>
+  <a href="tel:0756886887" class="nav-emergency" onclick="closeMobileMenu()">📞 Appel urgent — 07 56 886 887</a>
+</div>
+
 
 <div class="trust-bar">
   <span class="trust-item">✓ Agréé CertiBiocide N°119453</span>
@@ -104,25 +148,25 @@ footer a{color:rgba(255,255,255,.8);margin:0 8px}
         <div style="font-size:28px;margin-bottom:10px">🐀</div>
         <h3>Dératisation à Saint-Alban</h3>
         <p>Élimination durable des rats et souris. Pose d'appâts sécurisés, suivi régulier, obturation des points d'entrée. Intervention discrète et efficace.</p>
-        <div class="service-price">À partir de 140 € - diagnostic téléphonique gratuit</div>
+        <div class="service-price">À partir de 120 € - diagnostic téléphonique gratuit</div>
       </div>
       <div class="service-card">
         <div style="font-size:28px;margin-bottom:10px">🐝</div>
         <h3>Frelons & Guêpes à Saint-Alban</h3>
         <p>Destruction sécurisée de nids de frelons asiatiques et guêpes en hauteur ou sous-sol. Équipement professionnel, résultat immédiat.</p>
-        <div class="service-price">À partir de 140 €</div>
+        <div class="service-price">À partir de 90 €</div>
       </div>
       <div class="service-card">
         <div style="font-size:28px;margin-bottom:10px">🛏️</div>
         <h3>Punaises de lit à Saint-Alban</h3>
         <p>Traitement par protocole thermique ou chimique certifié. Éradication complète en 2-3 passages avec suivi inclus.</p>
-        <div class="service-price">À partir de 150 €</div>
+        <div class="service-price">À partir de 145 €</div>
       </div>
       <div class="service-card">
         <div style="font-size:28px;margin-bottom:10px">🪲</div>
         <h3>Désinsectisation à Saint-Alban</h3>
         <p>Cafards, fourmis, puces, moustiques — désinsectisation ciblée selon l'espèce. Produits homologués, sûrs pour votre famille.</p>
-        <div class="service-price">À partir de 140 €</div>
+        <div class="service-price">À partir de 80 €</div>
       </div>
     </div>
   </div>
@@ -164,7 +208,7 @@ footer a{color:rgba(255,255,255,.8);margin:0 8px}
       </div>
       <div class="faq-item">
         <div class="faq-q">💶 Quel est le tarif pour une intervention à Saint-Alban ?</div>
-        <div class="faq-a">Le devis est gratuit et établi après diagnostic téléphonique. Les tarifs démarrent à 140 € pour une désinsectisation, 140 € pour un nid de frelons, et sur devis pour la dératisation selon l'ampleur.</div>
+        <div class="faq-a">Le devis est gratuit et établi après diagnostic téléphonique. Les tarifs démarrent à 80 € pour une désinsectisation, 90 € pour un nid de frelons, et 140€ pour la dératisation selon l'ampleur.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">🏅 Êtes-vous certifiés pour intervenir à Saint-Alban ?</div>
@@ -201,8 +245,110 @@ footer a{color:rgba(255,255,255,.8);margin:0 8px}
 </section>
 
 <footer>
-  <p>© 2026 Dû Ô Nuisibles — Agréé CertiBiocide N°119453 — <a href="/">Accueil</a> · <a href="tel:0756886887">07 56 88 68 87</a> · <a href="mailto:contact@duonuisibles.com">contact@duonuisibles.com</a></p>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="f-logo" style="color:#1A4324;">Dû Ô <em>Nuisibles</em></div>
+      <p>Experts certifiés <strong>CertiBiocide N°119453</strong> basés à Aucamville / Fonbeauzard (31140). Intervention rapide sous 2h à 4h sur Toulouse et toute son agglomération, 7j/7.</p>
+<p><a href="tel:0756886887"><strong>📞 07 56 886 887</strong></a> · <a href="mailto:contact@duonuisibles.com">contact@duonuisibles.com</a></p>
+      <div style="display:flex;gap:8px;margin-top:12px;">
+        <a href="https://instagram.com/duonuisibles" target="_blank" rel="noopener" class="ig-nav-btn">Instagram</a>
+        <a href="https://facebook.com/profile.php?id=61576493986465" target="_blank" rel="noopener" class="fb-nav-btn">Facebook</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Services & Tarifs</h4>
+      <ul>
+        <li><a href="/deratisation">Dératisation rats & souris</a></li>
+        <li><a href="/prix-deratisation-toulouse">Tarifs dératisation</a></li>
+        <li><a href="/frelons">Destruction nids frelons</a></li>
+        <li><a href="/prix-destruction-frelons-toulouse">Tarifs frelons & guêpes</a></li>
+        <li><a href="/prix-punaises-de-lit-toulouse">Punaises de lit</a></li>
+        <li><a href="/prix-desinsectisation-toulouse">Désinsectisation cafards</a></li>
+        <li><a href="/deratisation-commerces-restaurants-toulouse">Contrats Pros & HACCP</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Guides & Urgences</h4>
+      <ul>
+        <li><a href="/urgence-rats-toulouse">Urgence rats Toulouse 2h</a></li>
+        <li><a href="/deratisation-31140">Secteur Nord 31140</a></li>
+        <li><a href="/souris-maison-que-faire">Souris : que faire ?</a></li>
+        <li><a href="/rats-dans-les-combles">Rats dans les combles</a></li>
+        <li><a href="/blog-conseils-nuisibles">Tous nos guides & blog</a></li>
+        <li><a href="/normes-homologations-traitement-nuisibles">Normes & CertiBiocide</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Secteurs 31</h4>
+      <ul>
+        <li><a href="/toulouse">Toulouse</a></li>
+        <li><a href="/aucamville">Aucamville (31140)</a></li>
+        <li><a href="/castelginest">Castelginest</a></li>
+        <li><a href="/fonbeauzard">Fonbeauzard</a></li>
+        <li><a href="/launaguet">Launaguet</a></li>
+        <li><a href="/saint-alban">Saint-Alban</a></li>
+        <li><a href="/blagnac">Blagnac & Colomiers</a></li>
+        <li><a href="/plan-du-site"><strong>Toutes nos communes →</strong></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Dû Ô Nuisibles · SIREN 102 814 910 · CertiBiocide N°119453</p>
+    <p><a href="/mentions-legales">Mentions légales</a> · <a href="/politique-confidentialite">Confidentialité</a> · <a href="/plan-du-site">Plan du site</a></p>
+  </div>
 </footer>
 
+<div class="float-cta">
+  <a href="https://wa.me." target="_blank" rel="noopener" class="float-btn float-wa">💬 WhatsApp</a>
+  <a href="tel:0756886887" class="float-btn float-phone">📞 07 56 886 887</a>
+</div>
+
+<div class="mobile-sticky-cta">
+  <div class="mobile-sticky-cta-inner">
+    <a href="tel:0756886887" class="msc-btn msc-call">
+      <span class="msc-btn-icon">📞</span>
+      <span class="msc-btn-num">07 56 886 887</span>
+      <span class="msc-btn-label">Appeler</span>
+    </a>
+    <a href="https://wa.me." target="_blank" rel="noopener" class="msc-btn msc-wa">
+      <span class="msc-btn-icon">💬</span>
+      <span class="msc-btn-num">WhatsApp</span>
+      <span class="msc-btn-label">Photo / Devis</span>
+    </a>
+    <a href="/#contact" class="msc-btn msc-devis">
+      <span class="msc-btn-icon">📝</span>
+      <span class="msc-btn-num">Devis 30min</span>
+      <span class="msc-btn-label">Gratuit</span>
+    </a>
+  </div>
+</div>
+
+<script>
+function toggleMobileMenu() {
+  const menu = document.getElementById('mobile-menu');
+  const btn = document.querySelector('.nav-mobile-toggle');
+  const isOpen = menu.classList.toggle('open');
+  if (btn) btn.setAttribute('aria-expanded', isOpen);
+}
+function closeMobileMenu() {
+  const menu = document.getElementById('mobile-menu');
+  const btn = document.querySelector('.nav-mobile-toggle');
+  if (menu) menu.classList.remove('open');
+  if (btn) btn.setAttribute('aria-expanded', 'false');
+}
+function toggleFaq(el) {
+  const item = el.closest('.faq-item');
+  if (!item) return;
+  const wasOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!wasOpen) item.classList.add('open');
+}
+</script>
 </body>
 </html>
+
+ 
